@@ -1,0 +1,79 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.list-inline-item a:hover {
+    color: #000 !important;
+}
+
+.cabecera {
+    background: url('./img/casa.jpg') no-repeat;
+    background-size: cover;
+}
+
+.form_search {
+    margin-top: -50px;
+}
+
+.margen {
+    margin-top: 120px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.video-top {
+    height: 500px;
+}
+
+@media (max-width: 600px) {
+    .video-top {
+        width: 100%;
+        height: auto;
+        
+    }
+    
+}
+
+.gradient {
+    background: rgb(40,42,46);
+    background: linear-gradient(0deg, rgba(40,42,46,1) 0%, rgba(40,42,46,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.color-blackgray {
+    background-color: #282a2e;
+}
+
+.color-blue {
+    color: #79bbf2;
+}
+
+.btn-blue {
+    background-color: #e4f1fc;
+    color: #58a5e5;
+}
+
+.color-dimgray {
+    color: #535558;
+}
+
+.fa-quote-left {
+    top: -10px;
+    left: -40px;
+}
+
+.icon {
+    top: 25%;
+    right: 30px;
+}
+
+.mostrar {
+    background-color: #79bbf2;
+}
